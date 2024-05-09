@@ -24,6 +24,7 @@ Join the Meme HASH community today to participate in meme contests, earn token r
 Stay Connected:
 Follow us on social media and join our Discord community to stay updated on the latest developments, events, and opportunities within the Meme HASH ecosystem.
 
-# Developer: Look Hook Dev with the support of ThirdWeb.
+# Developer: 
+Look Hook Dev with the support of ThirdWeb.
 
 Feel free to customize this Readme according to your project's specific details and requirements.
