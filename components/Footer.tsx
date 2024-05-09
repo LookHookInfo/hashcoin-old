@@ -27,7 +27,7 @@ const Footer: React.FC = () => {
             </div>
             <div>
                 <Flex justifyContent="center" alignItems="center">
-                    <Link href={"https://twitter.com/LookHookInfo"} mx={2} target="_blank" rel="noopener noreferrer">
+                    <Link href={"https://twitter.com/HashCoinFarm"} mx={2} target="_blank" rel="noopener noreferrer">
                         <FaTwitter size={24} color="#ffffff" />
                     </Link>
                     <Link href={"https://discord.gg/D55sWhNgcb"} mx={2} target="_blank" rel="noopener noreferrer">
