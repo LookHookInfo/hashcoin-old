@@ -46,13 +46,14 @@ export default function Info() {
                         - Discord roles.<Icon as={MdCheckCircle} color="yellow.500" /><br />
                         - ⚡️Drop GPU for the community.<br />
                         - Integration with CMC / CG and other aggregators.<br />
+                        - Integration of Analytics into Frontend.<br />
                         - CEX Listing on centralized exchanges.<br />
                         - Launch of quests and tasks (Guild/Galaxy/Zealy).<br />
                         - OTC inventory market.<br />
                         - NFT collection of our #Tag.<br />
                         - Founder's comment (Link).<br />
                         - Implementation of mining (4b) in other networks.<br />
-                        - Expanded integration.
+                        - Expanded integration.<br />
                     </Text>
                 </Box>
             </Box>
