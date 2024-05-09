@@ -41,9 +41,9 @@ export default function Info() {
                         - Development of the concept. <Icon as={MdCheckCircle} color="green.500" /><br />
                         - Token issuance (explorer) limited supply.<br />
                         - Founder's comment (Link).<br />
-                        - Integration of DApp into EVM.<br />
-                        - Formation of the EVM ecosystem.<br />
-                        - Discord roles.<br />
+                        - Integration of DApp into EVM.<Icon as={MdCheckCircle} color="yellow.500" /><br />
+                        - Formation of the EVM ecosystem.<Icon as={MdCheckCircle} color="yellow.500" /><br />
+                        - Discord roles.<Icon as={MdCheckCircle} color="yellow.500" /><br />
                         - ⚡️Drop GPU for the community.<br />
                         - Integration with CMC / CG and other aggregators.<br />
                         - CEX Listing on centralized exchanges.<br />
