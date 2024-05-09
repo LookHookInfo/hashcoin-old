@@ -38,14 +38,21 @@ export default function Info() {
                 <Box p={6}>
                     <Heading as="h2" mb={4}>MemeHash Roadmap</Heading>
                     <Text>
-                        - Idea Development <Icon as={MdCheckCircle} color="green.500" /><br />
-                        - Token Issuance (explorer)<br />
-                        - Deployment of dApp in EVM<br />
-                        - EVM Ecosystem Formation<br />
-                        - Launch of quests and tasks<br />
-                        - Partner acquisition (listing)<br />
-                        - Deployment of dApp in TVM<br />
-                        - Expanded integration
+                        - Development of the concept. <Icon as={MdCheckCircle} color="green.500" /><br />
+                        - Token issuance (explorer) limited supply.<br />
+                        - Founder's comment (Link).<br />
+                        - Integration of DApp into EVM.<br />
+                        - Formation of the EVM ecosystem.<br />
+                        - Discord roles.<br />
+                        - ⚡️Drop GPU for the community.<br />
+                        - Integration with CMC / CG and other aggregators.<br />
+                        - CEX Listing on centralized exchanges.<br />
+                        - Launch of quests and tasks (Guild/Galaxy/Zealy).<br />
+                        - OTC inventory market.<br />
+                        - NFT collection of our #Tag.<br />
+                        - Founder's comment (Link).<br />
+                        - Implementation of mining (4b) in other networks.<br />
+                        - Expanded integration.
                     </Text>
                 </Box>
             </Box>
