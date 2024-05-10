@@ -1,20 +1,13 @@
-/* eslint-disable react/no-unescaped-entities */
 import { Container, Heading, Text, Divider, Box, Icon } from "@chakra-ui/react";
 import { MdCheckCircle } from "react-icons/md";
 
 export default function Info() {
     return (
-        <Container maxW="x2" mt={8} px={4} bg="gray.100">
+        <Container maxW={{ base: "100%", md: "2xl" }} mt={8} px={4} bg="gray.100">
             <Box borderWidth="1px" borderRadius="lg" mb={5}>
                 <Box p={6}>
                     <Heading as="h2" mb={4}>Info # Hash</Heading>
-                    <Text fontSize="xl">MemeHash is a unique project that combines the world of memes and cryptocurrencies. Users can acquire various types of NFTs and stake them to earn Hash tokens as rewards. NFT staking opens up new opportunities for increasing productivity, efficiency, and profitability in the mining world.
-
-
-
-
-
-</Text>
+                    <Text fontSize={{ base: "lg", md: "xl" }}>MemeHash is a unique project that combines the world of memes and cryptocurrencies. Users can acquire various types of NFTs and stake them to earn Hash tokens as rewards. NFT staking opens up new opportunities for increasing productivity, efficiency, and profitability in the mining world.</Text>
                 </Box>
             </Box>
 
@@ -88,7 +81,6 @@ export default function Info() {
                         <span style={{ color: 'red' }}>*</span>
                         Token claiming principle: Tokens are claimed on a first-come, first-served basis. It's important to note that if the pool is empty, you won't be able to claim your tokens.
                     </Text>
-
                 </Box>
             </Box>
         </Container>
