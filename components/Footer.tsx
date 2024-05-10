@@ -17,14 +17,14 @@ const Footer: React.FC = () => {
         }}>
             <div>
                 <p>
-                    Developer
+                    DEV
                     <Link
                         href="https://lookhook.info/"
                         target="_blank"
                         rel="noopener noreferrer"
                         style={{ color: "#ffffff", textDecoration: "underline", marginLeft: "0.2rem" }}
                     >
-                        LookHook DEV
+                        LookHook
                     </Link>
                 </p>
             </div>
@@ -46,7 +46,7 @@ const Footer: React.FC = () => {
             </div>
             <div>
                 <a href="https://thirdweb.com" target="_blank" rel="noopener noreferrer" style={{ color: "white" }}>
-                    Using ThirdWeb
+                    ThirdWeb
                 </a>
             </div>
         </div>
