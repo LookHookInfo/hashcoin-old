@@ -1,13 +1,20 @@
+/* eslint-disable react/no-unescaped-entities */
 import { Container, Heading, Text, Divider, Box, Icon } from "@chakra-ui/react";
 import { MdCheckCircle } from "react-icons/md";
 
 export default function Info() {
     return (
-        <Container maxW={{ base: "100%", md: "2xl" }} mt={8} px={4} bg="gray.100">
+        <Container maxW="x2" mt={8} px={4} bg="gray.100">
             <Box borderWidth="1px" borderRadius="lg" mb={5}>
                 <Box p={6}>
                     <Heading as="h2" mb={4}>Info # Hash</Heading>
-                    <Text fontSize={{ base: "lg", md: "xl" }}>MemeHash is a unique project that combines the world of memes and cryptocurrencies. Users can acquire various types of NFTs and stake them to earn Hash tokens as rewards. NFT staking opens up new opportunities for increasing productivity, efficiency, and profitability in the mining world.</Text>
+                    <Text fontSize="xl">MemeHash is a unique project that combines the world of memes and cryptocurrencies. Users can acquire various types of NFTs and stake them to earn Hash tokens as rewards. NFT staking opens up new opportunities for increasing productivity, efficiency, and profitability in the mining world.
+
+
+
+
+
+</Text>
                 </Box>
             </Box>
 
@@ -18,7 +25,7 @@ export default function Info() {
                     <Heading as="h2" mb={4}>MemeHash Tokenomics</Heading>
                     <Text mb={2}><b>Supply: 10 billion HASH tokens</b></Text>
                     <Text>- Mining in EVM networks 40% = 4 billion</Text>
-                    <Text>- Mining on other networks 40% = 4 billion</Text>
+                    <Text>- Mining in TVM networks 40% = 4 billion</Text>
                     <Text>- Partnerships and Listing 10% = 1 billion</Text>
                     <Text>- Community Development (rewards) 5%</Text>
                     <Text>- Ecosystem Formation (team) 5%</Text>
@@ -79,8 +86,9 @@ export default function Info() {
                     <Divider mb={5} />
                     <Text>
                         <span style={{ color: 'red' }}>*</span>
-                        Token claiming principle: Tokens are claimed on a first-come, first-served basis. It&apos;s important to note that if the pool is empty, you won&apos;t be able to claim your tokens.
+                        Token claiming principle: Tokens are claimed on a first-come, first-served basis. It's important to note that if the pool is empty, you won't be able to claim your tokens.
                     </Text>
+
                 </Box>
             </Box>
         </Container>
