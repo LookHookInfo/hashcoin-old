@@ -1,4 +1,4 @@
-import { Container, Flex, Heading, Link } from "@chakra-ui/react";
+import { Container, Flex, Heading, Link, Text } from "@chakra-ui/react";
 import { ConnectWallet } from "@thirdweb-dev/react";
 
 export default function NavBar() {
@@ -10,6 +10,10 @@ export default function NavBar() {
                     <Link href={"/"} mx={2}>Play</Link>
                     <Link href={"/shop"} mx={2}>Shop</Link>
                     <Link href={"/info"} mx={2}>Info</Link>
+                    {/* OTC */}
+                    <Text mx={2} opacity={0.5}>OTC</Text>
+                    {/* #Tag */}
+                    <Text mx={2} opacity={0.5}>#Tag</Text>
                 </Flex>
                 <ConnectWallet />
             </Flex>
