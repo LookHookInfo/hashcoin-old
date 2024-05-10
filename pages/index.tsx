@@ -6,18 +6,16 @@ import { Inventory } from "../components/Inventory";
 import { Equipped } from "../components/Equipped";
 import { BigNumber, ethers } from "ethers";
 import { Text, Box, Card, Container, Flex, Heading, SimpleGrid, Spinner, Skeleton } from "@chakra-ui/react";
-import { maxHeaderSize } from "http";
-
 
 const Home: NextPage = () => {
   const address = useAddress();
 
-  const { contract: farmercontract } = useContract(FARMER_ADDRESS);
+  const { contract: farmerContract } = useContract(FARMER_ADDRESS);
   const { contract: toolsContract } = useContract(TOOLS_ADDRESS);
   const { contract: stakingContract } = useContract(STAKING_ADDRESS);
   const { contract: rewardContract } = useContract(REWARDS_ADDRESS);
 
-  const { data: ownedFarmers, isLoading: loadingOwnedFarmers } = useOwnedNFTs(farmercontract, address);
+  const { data: ownedFarmers, isLoading: loadingOwnedFarmers } = useOwnedNFTs(farmerContract, address);
   const { data: ownedTools, isLoading: loadingOwnedTools } = useOwnedNFTs(toolsContract, address);
 
   const { data: equippedTools } = useContractRead(
@@ -88,8 +86,8 @@ const Home: NextPage = () => {
             </Skeleton>
           </Card>
         </SimpleGrid>
-        <Card p={5} my={10} maxW="100%">
-          <Heading mb={8}>Equiped Device:</Heading>
+        <Card p={5} my={10} maxW="90%">
+          <Heading mb={8}>Equipped Device:</Heading>
           <SimpleGrid columns={3} spacing={10}>
             {equippedTools &&
               equippedTools[0].map((nft: BigNumber) => (
