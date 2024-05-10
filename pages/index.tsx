@@ -53,7 +53,7 @@ const Home: NextPage = () => {
 
   return (
     <Flex direction="column" bg="gray.200" color="white">
-      <Container maxW="100%" py={8}>
+      <Container maxW="95%" py={8}>
         <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
           <Card p={5}>
             <Heading>Mining center:</Heading>
@@ -86,7 +86,7 @@ const Home: NextPage = () => {
             </Skeleton>
           </Card>
         </SimpleGrid>
-        <Card p={5} my={10} maxW="100%">
+        <Card p={5} my={10} maxW="100%" py={28}>
           <Heading mb={8}>Equipped Device:</Heading>
           <SimpleGrid columns={3} spacing={10}>
             {equippedTools &&
