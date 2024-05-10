@@ -5,17 +5,17 @@ export default function NavBar() {
     return (
         <Container maxW="90%" px={0} py={4} bg="black" color="white">
             <Flex direction="row" justifyContent="space-between" alignItems="center" px={4}>
-                <Heading>Mining # Hash</Heading>
-                <Flex alignItems="center">
+                <Heading display={["none", "block"]}>Mining # Hash</Heading>
+                <Flex alignItems="center" textAlign={["center", "left"]}>
                     <Link href={"/"} mx={2}>Play</Link>
                     <Link href={"/shop"} mx={2}>Shop</Link>
                     <Link href={"/info"} mx={2}>Info</Link>
                     {/* OTC */}
-                    <Text mx={2} opacity={0.5}>OTC</Text>
+                    <Text display={["none", "inline"]} mx={2} opacity={0.5}>OTC</Text>
                     {/* #Tag */}
-                    <Text mx={2} opacity={0.5}>#Tag</Text>
+                    <Text display={["none", "inline"]} mx={2} opacity={0.5}>#Tag</Text>
                 </Flex>
-                <ConnectWallet />
+                <ConnectWallet display={["none", "block"]} />
             </Flex>
         </Container>
     );
