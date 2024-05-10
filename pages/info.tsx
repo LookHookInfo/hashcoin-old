@@ -3,7 +3,7 @@ import { MdCheckCircle } from "react-icons/md";
 
 export default function Info() {
     return (
-        <Container maxW="90%" mt={8} px={4} bg="gray.100">
+        <Container maxW="95%" mt={8} px={4} bg="gray.100">
             <Box borderWidth="1px" borderRadius="lg" mb={5}>
                 <Box p={6}>
                     <Heading as="h2" mb={4}>Info # Hash</Heading>

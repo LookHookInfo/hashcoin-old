@@ -11,7 +11,7 @@ export default function Shop() {
 
     return (
         <Box bg="gray.100" w="100%" p={4}>
-            <Container maxW="90%" px={0}>
+            <Container maxW="95%" px={0}>
                 <Card p={4} boxShadow="md">
                     <Flex direction="row" justifyContent="space-between" alignItems="center">
                         <Link href="/">
