@@ -3,10 +3,10 @@ import { ConnectWallet } from "@thirdweb-dev/react";
 
 export default function NavBar() {
     return (
-        <Container maxW={"100%"} py={4} bg="black" color="white">
-            <Flex direction={"row"} justifyContent={"space-between"} alignItems={"center"}>
+        <Container maxW="100%" px={0} py={4} bg="black" color="white">
+            <Flex direction="row" justifyContent="space-between" alignItems="center" px={4}>
                 <Heading>Mining # Hash</Heading>
-                <Flex alignItems={"center"}>
+                <Flex alignItems="center">
                     <Link href={"/"} mx={2}>Play</Link>
                     <Link href={"/shop"} mx={2}>Shop</Link>
                     <Link href={"/info"} mx={2}>Info</Link>
@@ -18,5 +18,5 @@ export default function NavBar() {
                 <ConnectWallet />
             </Flex>
         </Container>
-    )
+    );
 };

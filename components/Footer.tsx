@@ -11,6 +11,10 @@ const Footer: React.FC = () => {
             padding: "1rem",
             backgroundColor: "#01111f",
             color: "#ffffff",
+            width: "100%", // Растянуть от края до края экрана
+            position: "fixed", // Фиксированное положение внизу экрана
+            bottom: 0, // Прикрепить к нижнему краю экрана
+            zIndex: 1000, // Поместить поверх других элементов
         }}>
             <div>
                 <p>
