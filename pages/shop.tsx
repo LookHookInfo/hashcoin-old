@@ -11,23 +11,23 @@ export default function Shop() {
 
     return (
         <Box bg="gray.100" w="100%" p={4}>
-            <Container maxW={"1200px"}>
+            <Container maxW="90%" px={0}>
                 <Card p={4} boxShadow="md">
-                    <Flex direction={"row"} justifyContent={"space-between"} alignItems={"center"}>
+                    <Flex direction="row" justifyContent="space-between" alignItems="center">
                         <Link href="/">
                             <Button>Back</Button>
                         </Link>
                     </Flex>
-                    <Heading mt={"40px"}>Shop</Heading>
+                    <Heading mt={8}>Shop</Heading>
                     <Text>Purchase tools with $Tether (USDT) to increase your earnings.</Text>
                     {isLoading ? (
-                        <Flex h={"50vh"} justifyContent={"center"} alignItems={"center"}>
+                        <Flex h="50vh" justifyContent="center" alignItems="center">
                             <Spinner />
                         </Flex>
                     ) : isError ? (
                         <Box>Error loading products. Please try again later.</Box>
                     ) : (
-                        <SimpleGrid columns={3} spacing={10}>
+                        <SimpleGrid columns={{ base: 1, md: 3 }} spacing={10}>
                             {nfts?.map((nftItem) => (
                                 <NFT
                                     key={nftItem.metadata.id}
