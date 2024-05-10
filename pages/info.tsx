@@ -3,7 +3,7 @@ import { MdCheckCircle } from "react-icons/md";
 
 export default function Info() {
     return (
-        <Container maxW="100%" mt={8} px={4} bg="gray.100">
+        <Container maxW="90%" mt={8} px={4} bg="gray.100">
             <Box borderWidth="1px" borderRadius="lg" mb={5}>
                 <Box p={6}>
                     <Heading as="h2" mb={4}>Info # Hash</Heading>
@@ -33,7 +33,7 @@ export default function Info() {
                     <Text>
                         - Development of the concept. <Icon as={MdCheckCircle} color="green.500" /><br />
                         - Token issuance (explorer) limited supply.<br />
-                        - Founder's comment (Link).<br />
+                        - Founder&apos;s comment (Link).<br />
                         - Integration of DApp into EVM.<Icon as={MdCheckCircle} color="yellow.500" /><br />
                         - Formation of the EVM ecosystem.<Icon as={MdCheckCircle} color="yellow.500" /><br />
                         - Discord roles.<Icon as={MdCheckCircle} color="yellow.500" /><br />
@@ -44,7 +44,7 @@ export default function Info() {
                         - Launch of quests and tasks (Guild/Galaxy/Zealy).<br />
                         - OTC inventory market.<br />
                         - NFT collection of our #Tag.<br />
-                        - Founder's comment (Link).<br />
+                        - Founder&apos;s comment (Link).<br />
                         - Implementation of mining (4b) in other networks.<br />
                         - Expanded integration.<br />
                     </Text>
@@ -57,7 +57,7 @@ export default function Info() {
                 <Box p={6}>
                     <Heading as="h2" mb={4}>Whitepaper/Mechanics #hash</Heading>
                     <Text>- 80% of tokens are allocated for NFT staking, ensuring stability and protection of our ecosystem.</Text>
-                    <Text>- 10% is allocated as a reward for partners, trading platforms, and their communities, incentivizing active participation and encouraging their support in the project's development.</Text>
+                    <Text>- 10% is allocated as a reward for partners, trading platforms, and their communities, incentivizing active participation and encouraging their support in the project&apos;s development.</Text>
                     <Text>- 5% are allocated to various quests, tasks, and events that contribute to the growth of our community.</Text>
                     <Text>- The remaining 5% is used to strengthen the ecosystem through liquidity provision, support for external developers, and integration of new solutions for our users.</Text>
                     <Divider mb={5} />
@@ -79,7 +79,7 @@ export default function Info() {
                     <Divider mb={5} />
                     <Text>
                         <span style={{ color: 'red' }}>*</span>
-                        Token claiming principle: Tokens are claimed on a first-come, first-served basis. It's important to note that if the pool is empty, you won't be able to claim your tokens.
+                        Token claiming principle: Tokens are claimed on a first-come, first-served basis. It&apos;s important to note that if the pool is empty, you won&apos;t be able to claim your tokens.
                     </Text>
 
                 </Box>
