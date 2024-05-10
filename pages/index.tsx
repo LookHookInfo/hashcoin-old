@@ -86,7 +86,7 @@ const Home: NextPage = () => {
             </Skeleton>
           </Card>
         </SimpleGrid>
-        <Card p={5} my={10} maxW="100%" py={28}>
+        <Card p={5} my={10} maxW="100%" py={20}>
           <Heading mb={8}>Equipped Device:</Heading>
           <SimpleGrid columns={3} spacing={10}>
             {equippedTools &&
