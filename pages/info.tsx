@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { Container, Heading, Text, Divider, Box, Icon } from "@chakra-ui/react";
 import { MdCheckCircle } from "react-icons/md";
 
@@ -18,7 +19,7 @@ export default function Info() {
                     <Heading as="h2" mb={4}>MemeHash Tokenomics</Heading>
                     <Text mb={2}><b>Supply: 10 billion HASH tokens</b></Text>
                     <Text>- Mining in EVM networks 40% = 4 billion</Text>
-                    <Text>- Mining on other networks 40% = 4 billion</Text>
+                    <Text>- Mining in TVM networks 40% = 4 billion</Text>
                     <Text>- Partnerships and Listing 10% = 1 billion</Text>
                     <Text>- Community Development (rewards) 5%</Text>
                     <Text>- Ecosystem Formation (team) 5%</Text>
