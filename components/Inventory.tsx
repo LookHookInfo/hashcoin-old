@@ -1,3 +1,4 @@
+import React from 'react';
 import { MediaRenderer, Web3Button, useAddress, useContract } from '@thirdweb-dev/react';
 import { NFT } from '@thirdweb-dev/sdk';
 import { STAKING_ADDRESS, TOOLS_ADDRESS } from '../const/addresses';
@@ -39,7 +40,7 @@ export function Inventory({ nft }: Props) {
                 <Link
                     href="/shop"
                 >
-                    <Button>Shop device</Button>
+                    <Button colorScheme="blue">Shop device</Button>
                 </Link>
             </Box>
         )
@@ -59,7 +60,10 @@ export function Inventory({ nft }: Props) {
                     <Web3Button
                         contractAddress={STAKING_ADDRESS}
                         action={() => stakeNFT(nft.metadata.id)}
-                    >Equip</Web3Button>
+                        style={{ backgroundColor: 'gray', color: 'white' }}
+                    >
+                        Equip
+                    </Web3Button>
                     </Stack>
                 </Card>
             ))}

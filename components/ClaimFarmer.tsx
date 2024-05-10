@@ -1,3 +1,4 @@
+import React from 'react';
 import { MediaRenderer, Web3Button, useContract, useContractMetadata } from "@thirdweb-dev/react";
 import { FARMER_ADDRESS } from "../const/addresses";
 import { Box, Container, Flex, Heading, Spinner, Alert, AlertIcon } from "@chakra-ui/react";
@@ -36,7 +37,12 @@ export function ClaimFarmer() {
                 <Web3Button
                     contractAddress={FARMER_ADDRESS}
                     action={(contract) => contract.erc1155.claim(0, 1)}
-                    style={{ width: '100%', maxWidth: '300px' }}
+                    style={{ 
+                        width: '100%', 
+                        maxWidth: '300px',
+                        backgroundColor: 'gray', 
+                        color: 'white' 
+                    }}
                 >
                     Claim
                 </Web3Button>

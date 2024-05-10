@@ -1,3 +1,4 @@
+import React from 'react';
 import { Text, Card } from "@chakra-ui/react";
 import { MediaRenderer, Web3Button, useActiveClaimCondition, useContract } from "@thirdweb-dev/react";
 import { NFT } from "@thirdweb-dev/sdk";
@@ -35,7 +36,10 @@ export default function NFTComponent({ nft }: Props) {
             <Web3Button
                 contractAddress={TOOLS_ADDRESS}
                 action={(contract) => contract.erc1155.claim(nft.metadata.id, 1)}
-            >Buy</Web3Button>
+                style={{ backgroundColor: 'gray', color: 'white' }}
+            >
+                Buy
+            </Web3Button>
         </Card>
     );
 };

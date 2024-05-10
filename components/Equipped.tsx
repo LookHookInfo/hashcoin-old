@@ -34,22 +34,28 @@ export const Equipped = (props: EquippedProps) => {
                             />
                         </Box>
                         <Stack spacing={1}>
-                            <Text fontSize={"2xl"} fontWeight={"bold"}>{nft.metadata.name}</Text>
-                            <Text>Equipped: {ethers.utils.formatUnits(claimableRewards[0], 0)}</Text>
-                            <Web3Button
-                                contractAddress={STAKING_ADDRESS}
-                                action={(contract) => contract.call("withdraw", [props.tokenId, 1])}
-                            >Unequip</Web3Button>
-                        </Stack>
+                <Text fontSize={"2xl"} fontWeight={"bold"}>{nft.metadata.name}</Text>
+                <Text>Equipped: {ethers.utils.formatUnits(claimableRewards[0], 0)}</Text>
+                <Web3Button
+                    contractAddress={STAKING_ADDRESS}
+                    action={(contract) => contract.call("withdraw", [props.tokenId, 1])}
+                    style={{ backgroundColor: 'gray', color: 'white' }}
+                >
+                    Unequip
+                </Web3Button>
+            </Stack>
                     </Flex>
                     <Box mt={5}>
-                        <Text>Claimable $HASH:</Text>
-                        <Text>{ethers.utils.formatUnits(claimableRewards[1], 18)}</Text>
-                        <Web3Button
-                            contractAddress={STAKING_ADDRESS}
-                            action={(contract) => contract.call("claimRewards", [props.tokenId])}
-                        >Claim $HASH</Web3Button>
-                    </Box>
+                <Text>Claimable $HASH:</Text>
+                <Text>{ethers.utils.formatUnits(claimableRewards[1], 18)}</Text>
+                <Web3Button
+                    contractAddress={STAKING_ADDRESS}
+                    action={(contract) => contract.call("claimRewards", [props.tokenId])}
+                    style={{ backgroundColor: 'gray', color: 'white' }}
+                >
+                    Claim $HASH
+                </Web3Button>
+            </Box>
                 </Card>
             )}
         </Box>
