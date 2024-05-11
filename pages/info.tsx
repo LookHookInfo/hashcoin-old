@@ -41,7 +41,7 @@ export default function Info() {
                         - Integration with CMC / CG and other aggregators.<br />
                         - Integration of Analytics into Frontend.<br />
                         - CEX Listing on centralized exchanges.<br />
-                        - Launch of quests and tasks (Guild/Galaxy/Zealy).<br />
+                        - Launch of quests and tasks (Guild/Galxy/Zealy).<br />
                         - OTC inventory market.<br />
                         - NFT collection of our #Tag.<br />
                         - Founder&apos;s comment (Link).<br />
