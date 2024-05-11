@@ -46,6 +46,7 @@ export default function Info() {
                         - NFT collection of our #Tag.<br />
                         - Founder&apos;s comment (Link).<br />
                         - Implementation of mining (4b) in other networks.<br />
+                        - ⚡️Airdrop to the community.<br />
                         - Expanded integration.<br />
                     </Text>
                 </Box>
