@@ -34,7 +34,7 @@ export default function Info() {
                         - Development of the concept. <Icon as={MdCheckCircle} color="green.500" /><br />
                         - Token issuance ({""}<a href="https://basescan.org/address/0xa9b631abcc4fd0bc766d7c0c8fcbf866e2bb0445" target="_blank" rel="noopener noreferrer" style={{ color: 'blue' }}>Contract</a>) limited supply. <Icon as={MdCheckCircle} color="green.500" /><br />
                         - Founder&apos;s comment (Link).<br />
-                        - Integration of DApp into EVM.<Icon as={MdCheckCircle} color="yellow.500" /><br />
+                        - Integration of DApp into EVM.<Icon as={MdCheckCircle} color="green.500" /><br />
                         - Formation of the EVM ecosystem.<Icon as={MdCheckCircle} color="yellow.500" /><br />
                         - Discord roles.<Icon as={MdCheckCircle} color="yellow.500" /><br />
                         - ⚡️Drop GPU for the community.<br />
