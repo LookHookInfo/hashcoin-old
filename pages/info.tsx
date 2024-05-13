@@ -17,11 +17,11 @@ export default function Info() {
                 <Box p={6}>
                     <Heading as="h2" mb={4}>MemeHash Tokenomics</Heading>
                     <Text mb={2}><b>Supply: 10 billion HASH tokens</b></Text>
-                    <Text>- Mining in EVM networks 40% = 4 billion</Text>
-                    <Text>- Mining on other networks 40% = 4 billion</Text>
-                    <Text>- Partnerships and Listing 10% = 1 billion</Text>
-                    <Text>- Community Development (rewards) 5%</Text>
-                    <Text>- Ecosystem Formation (team) 5%</Text>
+                    <Text>- Mining in EVM networks 40% (Base pool) = 4 billion</Text>
+                    <Text>- Mining on other networks 40% (pool) = 4 billion</Text>
+                    <Text>- Partnerships and Listing 10% (fond) = 1 billion</Text>
+                    <Text>- Community Development (rewards) 5% = 500 million</Text>
+                    <Text>- Ecosystem Formation (team) 5% = 500 million</Text>
                 </Box>
             </Box>
 
