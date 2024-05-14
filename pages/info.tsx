@@ -80,7 +80,7 @@ export default function Info() {
                     <Divider mb={5} />
                     <Text>
                         <span style={{ color: 'red' }}>*</span>
-                        Token claiming principle: Tokens are claimed on a first-come, first-served basis. It&apos;s important to note that if the pool is empty, you won&apos;t be able to claim your tokens.
+                        We are working on adding analytical data and improving the interface.
                     </Text>
 
                 </Box>
