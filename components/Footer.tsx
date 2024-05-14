@@ -11,9 +11,9 @@ const Footer: React.FC = () => {
             padding: "1rem",
             backgroundColor: "#01111f",
             color: "#ffffff",
-            width: "100%", // Растянуть от края до края экрана
-            maxWidth: "95%", // Установить максимальную ширину на 90% экрана
-            margin: "0 auto", // Центрировать по горизонтали
+            width: "100%", 
+            maxWidth: "95%", 
+            margin: "0 auto", 
         }}>
             <div>
                 <p>
