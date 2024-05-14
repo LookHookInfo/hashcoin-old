@@ -14,30 +14,30 @@ const Footer: React.FC = () => {
                 </p>
             </div>
             <Flex justifyContent="center" alignItems="center">
-                <Link href="https://twitter.com/HashCoinFarm" mx={2} target="_blank" rel="noopener noreferrer">
-                    <FaTwitter size={24} color="#ffffff" />
-                </Link>
-                <Link href="https://discord.gg/D55sWhNgcb" mx={2} target="_blank" rel="noopener noreferrer">
-                    <FaDiscord size={24} color="#ffffff" />
-                </Link>
-                <Link href="https://t.me/ChainInside/524" mx={2} target="_blank" rel="noopener noreferrer">
-                    <FaTelegram size={24} color="#ffffff" />
-                </Link>
-                <Link href="https://github.com/LookHookInfo" mx={2} target="_blank" rel="noopener noreferrer">
-                    <FaGithub size={24} color="#ffffff" />
-                </Link>
+                <SocialLink href="https://twitter.com/HashCoinFarm" icon={<FaTwitter size={24} color="#ffffff" />} />
+                <SocialLink href="https://discord.gg/D55sWhNgcb" icon={<FaDiscord size={24} color="#ffffff" />} />
+                <SocialLink href="https://t.me/ChainInside/524" icon={<FaTelegram size={24} color="#ffffff" />} />
+                <SocialLink href="https://github.com/LookHookInfo" icon={<FaGithub size={24} color="#ffffff" />} />
             </Flex>
             <Box display={{ base: "none", md: "block" }}>
-                <a href="https://thirdweb.com" target="_blank" rel="noopener noreferrer" style={{ color: "white" }}>
-                    ThirdWeb
-                </a>
-                <a>&nbsp;</a>
-                <a href="/eco" style={{ color: "white" }}>
-                    Eco
-                </a>
+                <PageLink href="https://thirdweb.com" text="ThirdWeb" />
+                &nbsp;
+                <PageLink href="/eco" text="Eco" targetSelf />
             </Box>
         </Flex>
     );
 };
+
+const SocialLink: React.FC<{ href: string; icon: JSX.Element }> = ({ href, icon }) => (
+    <Link href={href} mx={2} target="_blank" rel="noopener noreferrer">
+        {icon}
+    </Link>
+);
+
+const PageLink: React.FC<{ href: string; text: string; targetSelf?: boolean }> = ({ href, text, targetSelf }) => (
+    <Link href={href} style={{ color: "white" }} target={targetSelf ? "_self" : "_blank"} rel="noopener noreferrer">
+        {text}
+    </Link>
+);
 
 export default Footer;
