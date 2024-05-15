@@ -17,6 +17,8 @@ export default function Info() {
                     <Heading as="h2" mb={4}>Logo</Heading>
                     <Text mb={2}><b>Logo 100x100</b></Text>
                     <Image src="/img/logo100.png" alt="Hash Coin Logo" boxSize="100px" />
+                    <Text mb={2}><b>Logo 200x200</b></Text>
+                    <Image src="/img/logo200.png" alt="Hash Coin Logo" boxSize="200px" />
                 </Box>
             </Box>
         </Container>
