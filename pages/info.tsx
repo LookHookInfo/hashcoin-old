@@ -42,7 +42,7 @@ export default function Info() {
                         - Integration of Analytics into Frontend.<br />
                         - CEX Listing on centralized exchanges.<br />
                         - Launch of quests and tasks (Guild/Galxy/Zealy).<br />
-                        - OTC inventory market.<br />
+                        - OTC inventory market.<Icon as={MdCheckCircle} color="yellow.500" /><br />
                         - NFT collection of our #Tag.<br />
                         - Founder&apos;s comment (Link).<br />
                         - Implementation of mining (4b) in other networks.<br />
