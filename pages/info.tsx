@@ -7,7 +7,7 @@ export default function Info() {
             <Box borderWidth="1px" borderRadius="lg" mb={5}>
                 <Box p={6}>
                     <Heading as="h2" mb={4}>Info # Hash</Heading>
-                    <Text fontSize="xl">MemeHash is a unique project that combines the world of memes and cryptocurrencies. Users can acquire various types of NFTs and stake them to earn Hash tokens as rewards. NFT staking opens up new opportunities for increasing productivity, efficiency, and profitability in the mining world.</Text>
+                    <Text fontSize="xl">Mining Hash offers a unique platform for acquiring HASH tokens. Users acquire NFT inventory and stake it to earn Hash tokens. The NFT inventory collection includes various types of equipment with specific mining productivity and efficiency, which account for 80% of the total HASH token volume.</Text>
                 </Box>
             </Box>
 
