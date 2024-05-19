@@ -15,10 +15,12 @@ export default function Info() {
             <Box borderWidth="1px" borderRadius="lg" mb={5}>
                 <Box p={6}>
                     <Heading as="h2" mb={4}>Logo</Heading>
+                    <Text mb={2}><b>Logo 32x32</b></Text>
+                    <Image src="/img/logo32.png" alt="Hash Coin Logo" boxSize="100px" />
                     <Text mb={2}><b>Logo 100x100</b></Text>
-                    <Image src="/img/logo100.png" alt="Hash Coin Logo" boxSize="100px" />
+                    <Image src="/img/logo100.png" alt="Hash Coin Logo" boxSize="200px" />
                     <Text mb={2}><b>Logo 200x200</b></Text>
-                    <Image src="/img/logo200.png" alt="Hash Coin Logo" boxSize="200px" />
+                    <Image src="/img/logo200.png" alt="Hash Coin Logo" boxSize="32px" />
                 </Box>
             </Box>
         </Container>
