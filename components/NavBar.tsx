@@ -1,5 +1,6 @@
-import { Container, Flex, Heading, Link, Text } from "@chakra-ui/react";
+import { Container, Flex, Heading, Link, Text, Box } from "@chakra-ui/react";
 import { ConnectWallet } from "@thirdweb-dev/react";
+import { FiExternalLink } from "react-icons/fi";
 
 export default function NavBar() {
     return (
@@ -11,7 +12,11 @@ export default function NavBar() {
                     <Link href={"/shop"} mx={2}>Shop</Link>
                     <Link href={"/info"} mx={2}>Info</Link>
                     {/* OTC */}
-                    <Text display={["none", "inline"]} mx={2} opacity={0.5}>OTC</Text>
+                    <Link href="https://opensea.io/collection/farm-inventory" isExternal mx={2} display="flex" alignItems="center">
+                        <Box as="span" display="flex" alignItems="center">
+                            OTC <FiExternalLink style={{ marginLeft: '4px' }} />
+                        </Box>
+                    </Link>
                     {/* #Tag */}
                     <Text display={["none", "inline"]} mx={2} opacity={0.5}>#Tag</Text>
                 </Flex>
@@ -19,4 +24,4 @@ export default function NavBar() {
             </Flex>
         </Container>
     );
-};
+}
