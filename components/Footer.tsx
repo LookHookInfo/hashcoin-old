@@ -23,7 +23,7 @@ const Footer: React.FC = () => {
                 <Box flex="1" textAlign="center" padding="1rem">
                     <Link href="https://hashcoin.farm/coin" color="white">Coin</Link>
                     <br />
-                    <Link href="https://hashcoin.farm/info" color="white">Road</Link>
+                    <Link href="https://hashcoin.farm/road" color="white">Road</Link>
                     <br />
                     <Link href="https://hashcoin.farm/paper" color="white">Paper</Link>
                 </Box>
