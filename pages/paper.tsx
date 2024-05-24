@@ -75,7 +75,7 @@ export default function HashCoinWhitepaper() {
                     <br />
                     - <b>Community Engagement and Partner Acquisition</b>.
                 </Text>
-                <Button colorScheme="blue" mt={4} onClick={() => window.open("https://hashcoin.farm/info", "_blank")}>Road Map</Button>
+                <Button colorScheme="blue" mt={4} onClick={() => window.open("https://hashcoin.farm/road", "_blank")}>Road Map</Button>
 
                 <Heading as="h3" mt={8} mb={4}>Conclusion</Heading>
                 <Text fontSize="lg" textAlign="justify">

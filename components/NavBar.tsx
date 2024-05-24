@@ -10,15 +10,13 @@ export default function NavBar() {
                 <Flex alignItems="center">
                     <Link href={"/"} mx={2}>Play</Link>
                     <Link href={"/shop"} mx={2}>Shop</Link>
-                    <Link href={"/info"} mx={2}>Info</Link>
+                    <Link href={"/paper"} mx={2}>Info</Link>
                     {/* OTC */}
                     <Link href="https://opensea.io/collection/farm-inventory" isExternal mx={2} display="flex" alignItems="center">
                         <Box as="span" display="flex" alignItems="center">
                             OTC <FiExternalLink style={{ marginLeft: '4px' }} />
                         </Box>
                     </Link>
-                    {/* #Tag */}
-                    <Text display={["none", "inline"]} mx={2} opacity={0.5}>#Tag</Text>
                 </Flex>
                 <ConnectWallet />
             </Flex>
