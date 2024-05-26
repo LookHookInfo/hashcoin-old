@@ -1,13 +1,13 @@
-import { Container, Heading, Text, Divider, Box, Icon } from "@chakra-ui/react";
+import { Container, Heading, Text, Divider, Box, Icon, Button, Link } from "@chakra-ui/react";
+import { FaTelegram } from "react-icons/fa";
 import { MdCheckCircle } from "react-icons/md";
-import { FaTelegram } from 'react-icons/fa';
 
 export default function Info() {
     return (
         <Container maxW="95%" mt={8} px={4} bg="gray.100">
             <Box borderWidth="1px" borderRadius="lg" mb={5}>
                 <Box p={6}>
-                    <Heading as="h2" mb={4}>MemeHash Roadmap</Heading>
+                <Heading as="h2" mb={4}>MemeHash Roadmap</Heading>
                     
                     <Heading as="h4" mb={4} fontSize="lg">Phase 1: Conceptualization and Foundation</Heading>
                     <Text fontSize="lg">
