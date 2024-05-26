@@ -1,4 +1,5 @@
 import { Container, Heading, Text, Box, Button } from "@chakra-ui/react";
+import Link from 'next/link';
 
 export default function HashCoinWhitepaper() {
     return (
@@ -30,7 +31,9 @@ export default function HashCoinWhitepaper() {
                     <br />
                     - <b>20% for Project Development</b>: A portion of the tokens is allocated to support the current development and improvement of our project.
                 </Text>
-                <Button colorScheme="blue" mt={4} onClick={() => window.open("https://hashcoin.farm/coin", "_blank")}>Tokenomics</Button>
+                <Link href="https://hashcoin.farm/coin" passHref>
+                    <Button colorScheme="blue" mt={4} as="a">Tokenomics</Button>
+                </Link>
 
                 <Heading as="h3" mt={8} mb={4}>NFT Staking Mechanics</Heading>
                 <Text fontSize="lg" textAlign="justify">
@@ -75,7 +78,9 @@ export default function HashCoinWhitepaper() {
                     <br />
                     - <b>Community Engagement and Partner Acquisition</b>.
                 </Text>
-                <Button colorScheme="blue" mt={4} onClick={() => window.open("https://hashcoin.farm/road", "_blank")}>Road Map</Button>
+                <Link href="https://hashcoin.farm/road" passHref>
+                    <Button colorScheme="blue" mt={4} as="a">Road Map</Button>
+                </Link>
 
                 <Heading as="h3" mt={8} mb={4}>Conclusion</Heading>
                 <Text fontSize="lg" textAlign="justify">
@@ -83,7 +88,6 @@ export default function HashCoinWhitepaper() {
                     <br />
                     Follow our social networks for additional information and updates.
                 </Text>
-
             </Box>
         </Container>
     );
