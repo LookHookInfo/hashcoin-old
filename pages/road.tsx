@@ -1,6 +1,5 @@
 import { Container, Heading, Text, Divider, Box, Icon } from "@chakra-ui/react";
 import { MdCheckCircle } from "react-icons/md";
-import { FaTelegram } from 'react-icons/fa';
 
 export default function Info() {
     return (
@@ -63,8 +62,7 @@ export default function Info() {
                             • Asic Miner Rack: Adding advanced Asic miners for enhanced mining capabilities.<br />
                             • Mining Container: Developing a mining container for large-scale operations.<br />
                         </Box>
-                        {/* Заменяем иконку галочки на иконку Telegram */}
-                        <Icon as={FaTelegram} color="blue.500" /> Development of a Telegram Bot: Creating a Telegram bot for simplified access and interaction with the application.<br />
+                        <Icon as={MdCheckCircle} color="rgba(128, 128, 128, 0.5)" /> Development of a Telegram Bot: Creating a Telegram bot for simplified access and interaction with the application.<br />
                     </Text>
                 </Box>
             </Box>
