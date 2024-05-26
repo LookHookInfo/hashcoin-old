@@ -39,7 +39,20 @@ export default function Info() {
 
             <Divider mb={5} />
 
-            
+            <Box borderWidth="1px" borderRadius="lg" mb={5}>
+                <Box p={6}>
+                    <Heading as="h4" mb={4} fontSize="lg">Phase 4: Future Developments and Innovations (Under Discussion)</Heading>
+                    <Text fontSize="lg">
+                        <Icon as={MdCheckCircle} color="rgba(128, 128, 128, 0.5)" /> New Inventory for HASH Mining:<br />
+                        <Box ml={4}>
+                            • GPU Rig: Introducing a new inventory item for token mining.<br />
+                            • Asic Miner Rack: Adding advanced Asic miners for enhanced mining capabilities.<br />
+                            • Mining Container: Developing a mining container for large-scale operations.<br />
+                        </Box>
+                        <Icon as={FaTelegram} color="blue.500" /> Development of a Telegram Bot: Creating a Telegram bot for simplified access and interaction with the application.<br />
+                    </Text>
+                </Box>
+            </Box>
         </Container>
     );
 }
