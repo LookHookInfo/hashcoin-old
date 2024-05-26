@@ -1,59 +1,21 @@
-/* eslint-disable react/no-unescaped-entities */
 import { Container, Heading, Text, Divider, Box, Icon } from "@chakra-ui/react";
 import { MdCheckCircle } from "react-icons/md";
+import { FaTelegram } from 'react-icons/fa';
 
 export default function Info() {
     return (
-        <Container maxW="x2" mt={8} px={4} bg="gray.100">
-            <Box borderWidth="1px" borderRadius="lg" mb={5}>
-                <Box p={6}>
-                    <Heading as="h2" mb={4}>Info # Hash</Heading>
-                    <Text fontSize="xl">MemeHash is a unique project that combines the world of memes and cryptocurrencies. Users can acquire various types of NFTs and stake them to earn Hash tokens as rewards. NFT staking opens up new opportunities for increasing productivity, efficiency, and profitability in the mining world.
-
-
-
-
-
-</Text>
-                </Box>
-            </Box>
-
-            <Divider mb={5} />
-
-            <Box borderWidth="1px" borderRadius="lg" mb={5}>
-                <Box p={6}>
-                    <Heading as="h2" mb={4}>MemeHash Tokenomics</Heading>
-                    <Text mb={2}><b>Supply: 10 billion HASH tokens</b></Text>
-                    <Text>- Mining in EVM networks 40% = 4 billion</Text>
-                    <Text>- Mining in TVM networks 40% = 4 billion</Text>
-                    <Text>- Partnerships and Listing 10% = 1 billion</Text>
-                    <Text>- Community Development (rewards) 5%</Text>
-                    <Text>- Ecosystem Formation (team) 5%</Text>
-                </Box>
-            </Box>
-
-            <Divider mb={5} />
-
+        <Container maxW="95%" mt={8} px={4} bg="gray.100">
             <Box borderWidth="1px" borderRadius="lg" mb={5}>
                 <Box p={6}>
                     <Heading as="h2" mb={4}>MemeHash Roadmap</Heading>
-                    <Text>
-                        - Development of the concept. <Icon as={MdCheckCircle} color="green.500" /><br />
-                        - Token issuance (explorer) limited supply.<br />
-                        - Founder's comment (Link).<br />
-                        - Integration of DApp into EVM.<Icon as={MdCheckCircle} color="yellow.500" /><br />
-                        - Formation of the EVM ecosystem.<Icon as={MdCheckCircle} color="yellow.500" /><br />
-                        - Discord roles.<Icon as={MdCheckCircle} color="yellow.500" /><br />
-                        - ⚡️Drop GPU for the community.<br />
-                        - Integration with CMC / CG and other aggregators.<br />
-                        - Integration of Analytics into Frontend.<br />
-                        - CEX Listing on centralized exchanges.<br />
-                        - Launch of quests and tasks (Guild/Galaxy/Zealy).<br />
-                        - OTC inventory market.<br />
-                        - NFT collection of our #Tag.<br />
-                        - Founder's comment (Link).<br />
-                        - Implementation of mining (4b) in other networks.<br />
-                        - Expanded integration.<br />
+                    
+                    <Heading as="h4" mb={4} fontSize="lg">Phase 1: Conceptualization and Foundation</Heading>
+                    <Text fontSize="lg">
+                        <Icon as={MdCheckCircle} color="green.500" /> Concept Development: Defining the core idea and vision of MemeHash.<br />
+                        <Icon as={MdCheckCircle} color="green.500" /> Token Issuance ({''}<a href="https://basescan.org/address/0xa9b631abcc4fd0bc766d7c0c8fcbf866e2bb0445" target="_blank" rel="noopener noreferrer" style={{ color: 'blue' }}>Contract</a>): Launching the HASH token with limited supply.<br />
+                        <Icon as={MdCheckCircle} color="green.500" /> Founder's Comment: ({''}<a href="https://x.com/PrimeBlocks/status/1790817564932677791" target="_blank" rel="noopener noreferrer" style={{ color: 'blue' }}>Link</a>)<br />
+                        <Icon as={MdCheckCircle} color="green.500" /> DApp Integration into EVM: Implementing the decentralized application into Ethereum Virtual Machine.<br />
+                        <Icon as={MdCheckCircle} color="yellow.500" /> Formation of the HASH Ecosystem: Creating and developing the ecosystem around the product.<br />
                     </Text>
                 </Box>
             </Box>
@@ -62,245 +24,60 @@ export default function Info() {
 
             <Box borderWidth="1px" borderRadius="lg" mb={5}>
                 <Box p={6}>
-                    <Heading as="h2" mb={4}>Whitepaper/Mechanics #hash</Heading>
-                    <Text>- 80% of tokens are allocated for NFT staking, ensuring stability and protection of our ecosystem.</Text>
-                    <Text>- 10% is allocated as a reward for partners, trading platforms, and their communities, incentivizing active participation and encouraging their support in the project's development.</Text>
-                    <Text>- 5% are allocated to various quests, tasks, and events that contribute to the growth of our community.</Text>
-                    <Text>- The remaining 5% is used to strengthen the ecosystem through liquidity provision, support for external developers, and integration of new solutions for our users.</Text>
-                    <Divider mb={5} />
-                    <Text mb={4}><b>Participants acquire and stake NFTs to receive #hash tokens as rewards, with mining speed depending on the quantity and characteristics of NFTs. The project provides for 4 types of NFTs:</b></Text>
-                    <Text mb={2}>- NFT Hub / 0$ / explorer</Text>
-                    <Text mb={2}>- NFT GPU / $1.99 / explorer</Text>
-                    <Text mb={2}>- NFT Asic / $9.50 / explorer</Text>
-                    <Text mb={2}>- NFT Farm / $29.20 / explorer</Text>
-                    <Text>- Anyone can participate, there are no regional restrictions.</Text>
-                    <Text>- To mine #hash tokens, it is necessary to mint NFT premises, minting is one-time per participant account. Cost of NFT 0 USDT + gas.</Text>
-                    <Text>- Acquiring NFT GPU and staking, mining speed # 0.042 per hour / price $1.99 each.</Text>
-                    <Text>- Acquiring NFT Asic and staking, mining speed # 0.42 per hour / price $9.50 each.</Text>
-                    <Text>- Acquiring NFT Farm and staking, mining speed # 2.42 per hour / price $29.20 each.</Text>
-                    <Divider mb={5} />
-                    <Text><b>Profit distribution from NFT sales:</b></Text>
-                    <Text>- Liquidity Pool HASH/USDT (50%): Ensures stability and liquidity in the trading pairs. / explorer</Text>
-                    <Text>- Treasury Fund (35%): Forms reserves for future investments and project development. / explorer</Text>
-                    <Text>- Team Fund (15%): Provides funding for the team to continue product development and enhancement. / explorer</Text>
-                    <Divider mb={5} />
-                    <Text>
-                        <span style={{ color: 'red' }}>*</span>
-                        Token claiming principle: Tokens are claimed on a first-come, first-served basis. It's important to note that if the pool is empty, you won't be able to claim your tokens.
+                    <Heading as="h4" mb={4} fontSize="lg">Phase 2: Community Building and Early Engagement</Heading>
+                    <Text fontSize="lg">
+                        <Icon as={MdCheckCircle} color="yellow.500" /> Discord Roles: Defining and assigning roles within the Discord community.<br />
+                        <Icon as={MdCheckCircle} color="rgba(128, 128, 128, 0.5)" /> ⚡️Inventory Drop for the Community: Distributing NFT GPUs among the initial project participants (100 units).<br />
+                        <Icon as={MdCheckCircle} color="yellow.500" /> Integration with Aggregators: Listing MemeHash on CoinMarketCap (CMC), CoinGecko (CG), and other aggregators.<br />
+                        <Icon as={MdCheckCircle} color="rgba(128, 128, 128, 0.5)" /> More useful information in the product interface.<br />
                     </Text>
+                </Box>
+            </Box>
 
+            <Divider mb={5} />
+
+            <Box borderWidth="1px" borderRadius="lg" mb={5}>
+                <Box p={6}>
+                    <Heading as="h4" mb={4} fontSize="lg">Phase 3: Expansion and Broader Integration</Heading>
+                    <Text fontSize="lg">
+                        <Icon as={MdCheckCircle} color="rgba(128, 128, 128, 0.5)" /> CEX Listing: Listing the HASH token on centralized exchanges for seamless asset trading.<br />
+                        <Icon as={MdCheckCircle} color="yellow.500" /> Launch of Quests and Tasks: Introducing interactive quests and tasks on platforms like Guild, Galxe, and Zealy.<br />
+                        <Icon as={MdCheckCircle} color="green.500" /> OTC Inventory Market: Creating an over-the-counter market for trading inventory.<br />
+                        <Icon as={MdCheckCircle} color="rgba(128, 128, 128, 0.5)" /> NFT Collection of our #Tag: Launching a unique NFT collection.<br />
+                        <Icon as={MdCheckCircle} color="rgba(128, 128, 128, 0.5)" /> Implementation of Mining in Other Networks: To expand capabilities and interact with communities across different networks, the team has allocated 4b HASH tokens for mining implementation in another network.<br />
+                        <Icon as={MdCheckCircle} color="rgba(128, 128, 128, 0.5)" /> ⚡️Airdrop for the Community: Conducting an airdrop to reward active community members, liquidity providers, inventory holders, and whitelist participants.<br />
+                        <Icon as={MdCheckCircle} color="rgba(128, 128, 128, 0.5)" /> Expanded Integration: Expanding the range of integrations to increase visibility.<br />
+                    </Text>
+                </Box>
+            </Box>
+
+            <Divider mb={5} />
+
+            <Box borderWidth="1px" borderRadius="lg" mb={5}>
+                <Box p={6}>
+                    <Heading as="h4" mb={4} fontSize="lg">Phase 4: Future Developments and Innovations (Under Discussion)</Heading>
+                    <Text fontSize="lg">
+                        <Icon as={MdCheckCircle} color="rgba(128, 128, 128, 0.5)" /> New Inventory for HASH Mining:<br />
+                        <Box ml={4}>
+                            • GPU Rig: Introducing a new inventory item for token mining.<br />
+                            • Asic Miner Rack: Adding advanced Asic miners for enhanced mining capabilities.<br />
+                            • Mining Container: Developing a mining container for large-scale operations.<br />
+                        </Box>
+                        <Icon as={FaTelegram} color="blue.500" /> Development of a Telegram Bot: Creating a Telegram bot for simplified access and interaction with the application.<br />
+                    </Text>
+                </Box>
+            </Box>
+
+            <Divider mb={5} />
+
+            <Box borderWidth="1px" borderRadius="lg" mb={5}>
+                <Box p={6}>
+                    <Heading as="h4" mb={4} fontSize="lg">Conclusion</Heading>
+                    <Text fontSize="lg">
+                        Our roadmap clearly and structurally outlines the path of MemeHash's development and growth. We strive to achieve each goal and continuously innovate to bring value to our community. Stay tuned for updates and join us on this journey!
+                    </Text>
                 </Box>
             </Box>
         </Container>
     );
 }
-
-
-
-import { ConnectWallet, MediaRenderer, useAddress, useContract, useContractRead, useOwnedNFTs } from "@thirdweb-dev/react";
-import type { NextPage } from "next";
-import { FARMER_ADDRESS, REWARDS_ADDRESS, STAKING_ADDRESS, TOOLS_ADDRESS } from "../const/addresses";
-import { ClaimFarmer } from "../components/ClaimFarmer";
-import { Inventory } from "../components/Inventory";
-import { Equipped } from "../components/Equipped";
-import { BigNumber, ethers } from "ethers";
-import { Text, Box, Card, Container, Flex, Heading, SimpleGrid, Spinner, Skeleton } from "@chakra-ui/react";
-import { maxHeaderSize } from "http";
-
-
-const Home: NextPage = () => {
-  const address = useAddress();
-
-  const { contract: farmercontract } = useContract(FARMER_ADDRESS);
-  const { contract: toolsContract } = useContract(TOOLS_ADDRESS);
-  const { contract: stakingContract } = useContract(STAKING_ADDRESS);
-  const { contract: rewardContract } = useContract(REWARDS_ADDRESS);
-
-  const { data: ownedFarmers, isLoading: loadingOwnedFarmers } = useOwnedNFTs(farmercontract, address);
-  const { data: ownedTools, isLoading: loadingOwnedTools } = useOwnedNFTs(toolsContract, address);
-
-  const { data: equippedTools } = useContractRead(
-    stakingContract,
-    "getStakeInfo",
-    [address]
-  );
-
-  const { data: rewardBalance } = useContractRead(rewardContract, "balanceOf", [address]);
-
-  if (!address) {
-    return (
-      <Flex direction="column" minHeight="100vh" justifyContent="center" alignItems="center" bg="gray.200">
-        <Heading my={8}>Start # HASH</Heading>
-        <ConnectWallet />
-      </Flex>
-    );
-  }
-
-  if (loadingOwnedFarmers) {
-    return (
-      <Flex minHeight="100vh" justifyContent="center" alignItems="center" bg="gray.200">
-        <Spinner />
-      </Flex>
-    );
-  }
-
-  if (ownedFarmers?.length === 0) {
-    return (
-      <Flex minHeight="100vh" justifyContent="center" alignItems="center" bg="gray.200">
-        <ClaimFarmer />
-      </Flex>
-    );
-  }
-
-  return (
-    <Flex direction="column" bg="gray.200" color="white">
-      <Container maxW="100%" py={8}>
-        <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
-          <Card p={5}>
-            <Heading>Mining center:</Heading>
-            <SimpleGrid columns={2} spacing={10}>
-              <Box>
-                {ownedFarmers?.map((nft) => (
-                  <div key={nft.metadata.id}>
-                    <MediaRenderer
-                      src={nft.metadata.image}
-                      height="100%"
-                      width="100%"
-                    />
-                  </div>
-                ))}
-              </Box>
-              <Box>
-                <Text fontSize="small" fontWeight="bold">$HASH Balance:</Text>
-                {rewardBalance && (
-                  <p>{(Math.round(parseFloat(ethers.utils.formatUnits(rewardBalance, 18)) * 100) / 100).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</p>
-                )}
-              </Box>
-            </SimpleGrid>
-          </Card>
-          <Card p={5}>
-            <Heading>Inventory:</Heading>
-            <Skeleton isLoaded={!loadingOwnedTools}>
-              <Inventory
-                nft={ownedTools}
-              />
-            </Skeleton>
-          </Card>
-        </SimpleGrid>
-        <Card p={5} my={10} maxW="100%">
-          <Heading mb={8}>Equiped Device:</Heading>
-          <SimpleGrid columns={3} spacing={10}>
-            {equippedTools &&
-              equippedTools[0].map((nft: BigNumber) => (
-                <Equipped
-                  key={nft.toNumber()}
-                  tokenId={nft.toNumber()}
-                />
-              ))}
-          </SimpleGrid>
-        </Card>
-      </Container>
-    </Flex>
-  );
-};
-
-export default Home;
-
-
-
-import { useContract, useNFTs } from "@thirdweb-dev/react";
-import { TOOLS_ADDRESS } from "../const/addresses";
-import Link from "next/link";
-import { Text, Button, Container, Flex, Heading, SimpleGrid, Spinner, Box, Card } from "@chakra-ui/react";
-import NFT from "../components/NFT";
-
-export default function Shop() {
-    const { contract } = useContract(TOOLS_ADDRESS);
-    const { data: nfts, isLoading, isError } = useNFTs(contract);
-    console.log(nfts);
-
-    return (
-        <Box bg="gray.100" w="100%" p={4}>
-            <Container maxW={"1200px"}>
-                <Card p={4} boxShadow="md">
-                    <Flex direction={"row"} justifyContent={"space-between"} alignItems={"center"}>
-                        <Link href="/">
-                            <Button>Back</Button>
-                        </Link>
-                    </Flex>
-                    <Heading mt={"40px"}>Shop</Heading>
-                    <Text>Purchase tools with $Tether (USDT) to increase your earnings.</Text>
-                    {isLoading ? (
-                        <Flex h={"50vh"} justifyContent={"center"} alignItems={"center"}>
-                            <Spinner />
-                        </Flex>
-                    ) : isError ? (
-                        <Box>Error loading products. Please try again later.</Box>
-                    ) : (
-                        <SimpleGrid columns={3} spacing={10}>
-                            {nfts?.map((nftItem) => (
-                                <NFT
-                                    key={nftItem.metadata.id}
-                                    nft={nftItem}
-                                />
-                            ))}
-                        </SimpleGrid>
-                    )}
-                </Card>
-            </Container>
-        </Box>
-    );
-}
-
-
-
-import type { AppProps } from "next/app";
-import { ThirdwebProvider } from "@thirdweb-dev/react";
-import { Sepolia } from "@thirdweb-dev/chains";
-import { ChakraProvider } from "@chakra-ui/react";
-import NavBar from "../components/NavBar";
-import Footer from "../components/Footer";
-
-
-
-function MyApp({ Component, pageProps }: AppProps) {
-  return (
-    <ThirdwebProvider activeChain={Sepolia}>
-      <ChakraProvider>
-        <NavBar/>
-        <Component {...pageProps} />
-        <Footer />
-      </ChakraProvider>
-    </ThirdwebProvider>
-  );
-}
-
-export default MyApp;
-
-
-
-import { Container, Flex, Heading, Link, Text } from "@chakra-ui/react";
-import { ConnectWallet } from "@thirdweb-dev/react";
-
-export default function NavBar() {
-    return (
-        <Container maxW={"100%"} py={4} bg="black" color="white">
-            <Flex direction={"row"} justifyContent={"space-between"} alignItems={"center"}>
-                <Heading>Mining # Hash</Heading>
-                <Flex alignItems={"center"}>
-                    <Link href={"/"} mx={2}>Play</Link>
-                    <Link href={"/shop"} mx={2}>Shop</Link>
-                    <Link href={"/info"} mx={2}>Info</Link>
-                    {/* OTC */}
-                    <Text mx={2} opacity={0.5}>OTC</Text>
-                    {/* #Tag */}
-                    <Text mx={2} opacity={0.5}>#Tag</Text>
-                </Flex>
-                <ConnectWallet />
-            </Flex>
-        </Container>
-    )
-};
-
-
-
