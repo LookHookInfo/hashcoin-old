@@ -5,7 +5,7 @@ import { FaTelegram } from 'react-icons/fa';
 export default function Info() {
     return (
         <Container maxW="95%" mt={8} px={4} bg="gray.100">
-            {/* Секция с дорожной картой MemeHash */}
+            
             <Box borderWidth="1px" borderRadius="lg" mb={5}>
                 <Box p={6}>
                     <Heading as="h2" mb={4}>MemeHash Roadmap</Heading>
