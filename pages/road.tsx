@@ -53,6 +53,17 @@ export default function Info() {
                     </Text>
                 </Box>
             </Box>
+
+            <Divider mb={5} />
+
+            <Box borderWidth="1px" borderRadius="lg" mb={5}>
+                <Box p={6}>
+                    <Heading as="h4" mb={4} fontSize="lg">Conclusion</Heading>
+                    <Text fontSize="lg">
+                        Our roadmap clearly and structurally outlines the path of MemeHash's development and growth. We strive to achieve each goal and continuously innovate to bring value to our community. Stay tuned for updates and join us on this journey!
+                    </Text>
+                </Box>
+            </Box>
         </Container>
     );
 }
