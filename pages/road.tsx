@@ -6,9 +6,7 @@ export default function Info() {
     return (
         <Container maxW="95%" mt={8} px={4} bg="gray.100">
             <Box borderWidth="1px" borderRadius="lg" mb={5}>
-                <Box p={6}>
-                    <Heading as="h2" mb={4}>MemeHash Roadmap</Heading>
-                    
+                <Box p={6}>                                      
                     <Heading as="h4" mb={4} fontSize="lg">Phase 1: Conceptualization and Foundation</Heading>
                     <Text fontSize="lg">
                         <Icon as={MdCheckCircle} color="green.500" /> Concept Development: Defining the core idea and vision of MemeHash.<br />
