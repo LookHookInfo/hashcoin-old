@@ -23,7 +23,7 @@ export function ClaimFarmer() {
     return (
         <Container maxW="1200px">
             <Flex direction="column" alignItems="center" justifyContent="center" h="50vh">
-                <Heading mb={4}>Open a mining center</Heading>
+                <Heading mb={4}>Mining Center</Heading>
                 <Box borderRadius="8px" overflow="hidden" my={10}>
                     {metadata?.image && (
                         <MediaRenderer
