@@ -13,12 +13,16 @@ export default function NFTComponent({ nft }: Props) {
     const { contract } = useContract(TOOLS_ADDRESS);
     const { data, isLoading, error } = useActiveClaimCondition(
         contract,
-        nft.metadata.id, // Token ID required for ERC1155 contracts here.
+        nft.metadata.id,
     );
 
     if (error) {
         return <Text>Error: Unable to load data for this NFT.</Text>;
     }
+
+    const formatUSDCPrice = (price: ethers.BigNumberish) => {
+        return ethers.utils.formatUnits(price, 6);
+    };
 
     return (
         <Card key={nft.metadata.id} overflow={"hidden"} boxShadow={"md"}>
@@ -29,7 +33,7 @@ export default function NFTComponent({ nft }: Props) {
             />
             <Text fontSize={"2xl"} fontWeight={"bold"} my={5} textAlign={"center"}>{nft.metadata.name}</Text>
             {!isLoading && data ? (
-                <Text textAlign={"center"} my={5}>Cost: {ethers.utils.formatEther(data?.price)}{" " + data?.currencyMetadata.symbol}</Text>
+                <Text textAlign={"center"} my={5}>Cost: {formatUSDCPrice(data?.price)}{" " + data?.currencyMetadata.symbol}</Text>
             ) : (
                 <Text textAlign={"center"} my={5}>Loading...</Text>
             )}
