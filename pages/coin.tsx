@@ -20,6 +20,7 @@ export default function Info() {
                         • <b>Token Symbol:</b> HASH<br />
                         • <b>Network:</b> Base<br />
                         • <b>Total Supply:</b> 10 billion HASH
+                        • <b>Contract:</b> 0xA9B631ABcc4fd0bc766d7C0C8fCbf866e2bB0445
                     </Text>
                 </Box>
             </Box>
