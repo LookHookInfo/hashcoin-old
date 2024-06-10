@@ -21,7 +21,7 @@ export default function HashCoinWhitepaper() {
                     <Text fontSize="lg" textAlign="justify">
                         Participants interact with the following contracts:
                         <br />
-                        • <b>NFT Contract</b>: 0x884AFB0f27C1C7f50D93e010598aaE6Ace3a66Dc
+                        • <b>NFT Contract</b>: 0x3ACCCbCDfd1ed5C4fb926c9AFFD619E546f3a95D
                         <br />
                         • <b>Inventory Contract</b>: 0x13CE10a3e09FA8000BA8A13fCbe8813f476584e7
                         <br />
