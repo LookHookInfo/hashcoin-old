@@ -14,6 +14,11 @@ const Footer: React.FC = () => {
                             Team <Icon as={FaExternalLinkAlt} marginLeft="0.2rem" />
                         </Link>
                     </Text>
+                    <Text>
+                        <Link href="https://opensea.io/collection/farm-inventory" isExternal color="white">
+                            OTC <Icon as={FaExternalLinkAlt} marginLeft="0.2rem" />
+                        </Link>
+                    </Text>
                     <Text color="gray.400">Invest</Text>
                 </Box>
 

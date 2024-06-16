@@ -11,9 +11,9 @@ export default function NavBar() {
                     <Link href={"/"} mx={2}>Play</Link>
                     <Link href={"/shop"} mx={2}>Shop</Link>
                     {/* OTC */}
-                    <Link href="https://opensea.io/collection/farm-inventory" isExternal mx={2} display="flex" alignItems="center">
+                    <Link href="https://guild.xyz/hashcoin" isExternal mx={2} display="flex" alignItems="center">
                         <Box as="span" display="flex" alignItems="center">
-                            OTC <FiExternalLink style={{ marginLeft: '4px' }} />
+                            Guild <FiExternalLink style={{ marginLeft: '4px' }} />
                         </Box>
                     </Link>
                 </Flex>
