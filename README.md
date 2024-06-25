@@ -4,7 +4,7 @@ Meme HASH is an innovative project aimed at enhancing the attractiveness and uni
 Website - https://hashcoin.farm
 Base
 
-MINING_ADDRESS = '0x3ACCCbCDfd1ed5C4fb926c9AFFD619E546f3a95D';
+MINING_ADDRESS = '0x37902C894F1b95F2fAC33b3680E653827F1Dc69d';
 
 TOOLS_ADDRESS = '0x13CE10a3e09FA8000BA8A13fCbe8813f476584e7';
 
