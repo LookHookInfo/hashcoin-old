@@ -2,7 +2,7 @@
 Overview:
 Meme HASH is an innovative project aimed at enhancing the attractiveness and uniqueness of cryptocurrency tokens through the utilization of memes and Non-Fungible Tokens (NFTs). By integrating meme culture with blockchain technology, Meme HASH offers users the opportunity to participate in a novel and engaging ecosystem where meme creation and NFT staking contribute to token rewards and community interaction.
 Website - https://hashcoin.farm
-Base net
+Base
 
 MINING_ADDRESS = '0x37902C894F1b95F2fAC33b3680E653827F1Dc69d';
 
